@@ -1,0 +1,14 @@
+#Q = {q,accept,reject}
+#S = {(,)}
+#G = {(,),Z}
+#q0 = q
+#z0 = Z
+#F = {accept}
+
+
+
+q ( Z q (Z
+q ( ( q ((
+q ) ( q _
+q ) Z reject Z
+q _ Z accept _
